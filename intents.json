@@ -1,0 +1,48 @@
+{"intents": [
+    {"tag": "saudacao",
+        "patterns": ["Ola!!", "Como voce esta?", "Tem alguem ai?","Oi","Oie", "Alo"],
+        "responses": ["Ola!!, obrigado por perguntar.", "Que bom ver voce novamente.","Ola, como posso ajudar?"]
+    },
+    {"tag": "despedida",
+        "patterns": ["Tchau", "Nos vemos depois", "Adeus", "Foi bom falar com voce, tchau","Ate a proxima"],
+        "responses": ["Nos vemos!", "Tenha um otimo dia", "Tchau! Volte logo."] 
+    },
+    {"tag": "agradecimento",
+        "patterns": ["Obrigado!", "Muito obrigado.", "Isso foi util", "Maravilha, obrigado!", "Obrigado por me ajudar!"],
+        "responses": ["Fico feliz em ajudar!", "Sempre que precisar", "Foi um prazer."]
+    },
+    {"tag": "sem_resposta",
+        "patterns": [""],
+        "responses": ["Desculpe, nao consegui entender voce.", "Por favor de-me mais informacoes.", "Acho que nao entendi."]
+    },
+    {"tag": "opcoes",
+     "patterns": ["Estou entediado hoje!", "O que voce pode fazer?",
+                "Nao sei o que fazer", "Que ajuda voce oferece?",
+                "Como voce pode ser util?", "Que suporte e oferecido"],
+     "responses": ["Posso orientar voce em uma atividade para passar o dia. Qual e o seu hobby?",
+                   "Podemos planejar uma atividade diaria. O que voce gostaria de fazer?"]
+    },
+    {"tag": "arte",
+        "patterns": ["Gosto de arte", "Gosto de artesanato", "arte e artesanato", "desenho", "retrato", "pintura"],
+        "responses": ["Voce pode desenhar uma arte geometrica e colori-la!!","Voce pode esbocar um cenario hoje.",
+                      "Experimente a arte da Mandala pontilhada hoje!"]
+    },
+    {"tag": "musica",
+        "patterns": ["Eu gosto de musica", "Eu gosto de cancoes", "cancoes e musica", "pop"],
+        "responses": ["Voce pode ouvir musicas na radio FM",
+                     "Voce pode gravar um video para postar num site da rede social"]
+    },
+   
+    {"tag": "culinaria",
+            "patterns": ["Eu gosto de cozinhar", "Eu gosto de assar", "comer pizza", "cozinhar", "comida"],
+            "responses": ["Voce pode tentar fazer um bolo hoje!","Voce pode assar uma pizza hoje"]},
+     
+    {"tag": "fitness",
+        "patterns": ["Gosto de fazer exercicios", "Gosto de aerobica", "exercicio"],
+        "responses": ["Voce pode tentar dancar zumba hoje!","Voce pode tentar pilates hoje"]},
+
+    {"tag": "viagem",
+        "patterns": ["Gosto de viajar", "Gosto de explorar lugares diferentes", "viajar"],
+        "responses": ["Voce pode visitar um zoológico hoje!","Voce pode visitar um parque de diversoes hoje"]}         
+]}
+
